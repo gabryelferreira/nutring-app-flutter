@@ -7,3 +7,7 @@ A simple app, using a simple architecture just to search for healthy/vegetarian/
 To run the project in your machine, you first need to setup flutter in your path.
 
 After that, clone this repo, type `flutter pub get` in project's directory and `flutter run` (Be sure to have a running emulator).
+
+### Problems in this project
+
+Flutter has an open issue with images, and sometimes the app can crash because we're using ListView with large images.
